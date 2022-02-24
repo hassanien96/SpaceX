@@ -35,10 +35,6 @@ data class LaunchesResponseItem(
     val launchDateUnix: Int,
     @SerializedName("launch_date_utc")
     val launchDateUtc: Date,
-    @SerializedName("launch_failure_details")
-    val launchFailureDetails: LaunchFailureDetails,
-    @SerializedName("launch_site")
-    val launchSite: LaunchSite,
     @SerializedName("launch_success")
     val launchSuccess: Boolean,
     @SerializedName("launch_window")
@@ -61,12 +57,8 @@ data class LaunchesResponseItem(
     val staticFireDateUtc: String,
     @SerializedName("tbd")
     val tbd: Boolean,
-    @SerializedName("telemetry")
-    val telemetry: Telemetry,
     @SerializedName("tentative_max_precision")
     val tentativeMaxPrecision: String,
-    @SerializedName("timeline")
-    val timeline: Timeline,
     @SerializedName("upcoming")
     val upcoming: Boolean
 )
