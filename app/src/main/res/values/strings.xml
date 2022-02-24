@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">SpaceX</string>
+    <string name="error_internet_failure">Please make sure you\'re connected to the internet.</string>
+    <string name="error_service_failure">There was an issue connecting to the service, please try again later.</string>
+    <string name="error_connection_issue">Connection Issue</string>
+    <string name="company">Company</string>
+    <string name="launches">Launches</string>
+    <string name="retry">Retry</string>
+    <string name="filter">Filter</string>
+    <string name="successful_launches">Successful launches</string>
+    <string name="unsuccessful_launches">Unsuccessful launches</string>
+    <string name="launch_status">Launch status</string>
+    <string name="filter_by_launch_year">Filter by launch year</string>
+    <string name="ascending">Ascending</string>
+    <string name="descending">Descending</string>
+    <string name="sorting">Sorting</string>
+    <string name="apply">Apply</string>
+    <string name="no_result_available">No result available</string>
+    <string name="clear_filter">Clear filter</string>
+    <string name="open_article">Open Article</string>
+    <string name="open_video">Open Video</string>
+    <string name="open_wikipedia">Open Wikipedia</string>
+    <string name="no_links">No available links for this launch</string>
+</resources>

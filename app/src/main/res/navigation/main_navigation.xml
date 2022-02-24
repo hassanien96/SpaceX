@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/launchesFragment">
+
+
+    <fragment
+        android:id="@+id/launchesFragment"
+        android:name="com.example.spacexassignment.ui.home.HomeFragment"
+        android:label="SpaceX" >
+        <action
+            android:id="@+id/action_launchesFragment_to_filterDialog"
+            app:destination="@id/filterDialog" />
+        <action
+            android:id="@+id/action_launchesFragment_to_optionsDialog"
+            app:destination="@id/optionsDialog" />
+    </fragment>
+    <dialog
+        android:id="@+id/filterDialog"
+        android:name="com.example.spacexassignment.ui.home.filterDialog.FilterDialog"
+        android:label="FilterDialog" />
+    <dialog
+        android:id="@+id/optionsDialog"
+        android:name="com.example.spacexassignment.ui.home.optionsDialog.OptionsDialog"
+        android:label="OptionsDialog" >
+        <argument
+            android:name="links"
+            app:argType="com.example.spacexassignment.model.network.responses.launches.Links"
+            app:nullable="true" />
+    </dialog>
+</navigation>
